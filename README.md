@@ -30,7 +30,7 @@ Authentication-System/
 │-- src/main/java/com/example/auth/
 │   │-- config/        # Security & JWT configuration
 │   │-- controller/    # REST API controllers
-│   │-- dto/           # Data Transfer Objects
+│   │-- io/           # Data Transfer Objects
 │   │-- entity/        # JPA entities
 │   │-- repository/    # Database repositories
 │   │-- service/       # Business logic & email service
@@ -79,12 +79,12 @@ Authentication-System/
 
 ## 🔑 API Endpoints
 | Method | Endpoint                | Description              |
-|--------|-------------------------|--------------------------|
-| POST   | `/api/auth/register`    | Register new user        |
-| POST   | `/api/auth/login`       | Login & get JWT token    |
-| POST   | `/api/auth/logout`      | Logout user              |
-| POST   | `/api/auth/verify-otp`  | Verify email OTP         |
-| POST   | `/api/auth/reset-pass`  | Reset password via email |
+|--------|---------------------------|--------------------------|
+| POST   | `/api/v1.0/register`      | Register new user        |
+| POST   | `/api/v1.0/login`         | Login & get JWT token    |
+| POST   | `/api/v1.0/logout`        | Logout user              |
+| POST   | `/api/v1.0/verify-otp`    | Verify email OTP         |
+| POST   | `/api/v1.0/reset-password`| Reset password via email |
 
 ---
 
@@ -113,6 +113,6 @@ This project is licensed under the MIT License.
 ---
 
 ### 💡 Author
-👤 Your Name  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile) | [GitHub](https://github.com/your-username)
+👤 Bhupendra Verma
+📧 bhupendrav945@gmail.com 
+🔗 [LinkedIn](https://www.linkedin.com/in/bhupendra-verma-dev/)
